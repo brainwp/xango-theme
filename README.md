@@ -2,7 +2,7 @@
 
 Xangô é um tema de WordPress usado como base nos temas da Brasa.art.br
 
-É baseado no framework da comunidade brasileira de WordPress.
+É baseado no framework Odin da comunidade brasileira de WordPress.
 
 [Site do Odin ](http://wpod.in/)
  
