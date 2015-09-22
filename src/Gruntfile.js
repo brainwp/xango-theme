@@ -37,6 +37,7 @@ module.exports = function( grunt ) {
 				files: {
 					'<%= dirs.js %>/main.min.js': [
 						'<%= dirs.js %>/libs/*.js', // External libs/plugins
+						'<%= dirs.js %>/*.js',    // Custom JavaScript
 						'<%= dirs.js %>/main.js'    // Custom JavaScript
 					]
 				}

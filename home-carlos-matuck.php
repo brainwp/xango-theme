@@ -1,18 +1,17 @@
 <?php
 /**
- * The template for displaying all pages.
+ * Template Name: Home (modelo Carlos Matuck)
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages and that other
- * 'pages' on your WordPress site will use a different template.
+ * The template for displaying pages with sidebar.
  *
  * @package Odin
  * @since 2.2.0
  */
 
-get_header(); ?>
+get_header(	'matuck' );
+?>
 
-	<main id="content" class="<?php echo odin_classes_page_full(); ?>" tabindex="-1" role="main">
+	<main id="content" class="<?php echo odin_classes_page_sidebar(); ?>" tabindex="-1" role="main">
 
 			<?php
 				// Start the Loop.
@@ -31,4 +30,5 @@ get_header(); ?>
 	</main><!-- #main -->
 
 <?php
+get_sidebar();
 get_footer();
