@@ -10,7 +10,7 @@
 
 get_header(	'matuck' );
 ?>
-	<?php if ( apply_filters( 'xango_carlos_matuck_show_about_home', true ) ) : ?>
+	<?php if ( apply_filters( 'xango_carlos_matuck_show_about_home', false ) ) : ?>
 		<div class="col-md-8 col-md-offset-2 about-bar carlos-matuck">
 			<div class="about-bar-container">
 				<?php if ( ! empty ( apply_filters( 'xango_carlos_matuck_about_home_title', null ) ) ) : ?>
