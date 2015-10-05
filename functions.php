@@ -302,3 +302,30 @@ if ( is_woocommerce_activated() ) {
 	require get_template_directory() . '/inc/woocommerce/functions.php';
 	require get_template_directory() . '/inc/woocommerce/template-tags.php';
 }
+
+/**
+ * Carlos Matuck theme slider area
+ */
+function do_brasa_slider_carlos_matuck() {
+	if ( is_page_template( 'home-carlos-matuck.php' ) ) {
+		$slider_name = apply_filters( 'brasa_slider_home_title', __( 'Slider home', 'odin' ) );
+		echo '<div class="carlos-matuck-slider-home">';
+		echo do_shortcode( sprintf( '[brasa_slider name="%s"]', $slider_name ) );
+		echo '</div>';
+	}
+}
+add_action( 'xango_theme_slider_area', 'do_brasa_slider_carlos_matuck' );
+
+/** filters to show about bar */
+function brasa_carlos_matuck_about_content( $value ) {
+	$value = 'Holy Land pra mim é o melhor album do Angra. A forma como conseguiram misturar maracatu com power metal é algo simplesmente épico! <br> Mas eu também gosto de Shaman.';
+	return $value;
+}
+//add_filter( 'xango_carlos_matuck_about_home_content', 'brasa_carlos_matuck_about_content' );
+
+function brasa_carlos_matuck_about_title( $value ) {
+	$value = 'Saiba Mais';
+	return $value;
+}
+//add_filter( 'xango_carlos_matuck_about_home_link', 'brasa_carlos_matuck_about_title' );
+//add_filter( 'xango_carlos_matuck_about_home_title', 'brasa_carlos_matuck_about_title' );

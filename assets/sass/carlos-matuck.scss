@@ -43,3 +43,31 @@
 		border-radius: 0 !important;
 	}
 }
+.carlos-matuck-slider-home {
+	.is_slider {
+		padding: 0 !important;
+	}
+	.slick-track {
+		width:100% !important;
+	}
+	.is_slider a {
+		max-height: 340px;
+	}
+	.is_slider img {
+		overflow: hidden;
+	}
+}
+.clear {
+	width:100%;
+	clear: both;
+}
+.about-bar.carlos-matuck {
+	background:grey;
+	position: absolute;
+	margin-top:-7%;
+
+	.about-link-container {
+		position: absolute;
+		bottom: -15px;
+	}
+}
