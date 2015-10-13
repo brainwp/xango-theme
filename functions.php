@@ -308,10 +308,12 @@ if ( is_woocommerce_activated() ) {
  */
 function do_brasa_slider_carlos_matuck() {
 	if ( is_page_template( 'home-carlos-matuck.php' ) ) {
+		do_action( 'brasa_slider_home_before' );
 		$slider_name = apply_filters( 'brasa_slider_home_title', __( 'Slider home', 'odin' ) );
 		echo '<div class="carlos-matuck-slider-home">';
 		echo do_shortcode( sprintf( '[brasa_slider name="%s"]', $slider_name ) );
 		echo '</div>';
+		do_action( 'brasa_slider_home_after' );
 	}
 }
 add_action( 'xango_theme_slider_area', 'do_brasa_slider_carlos_matuck' );
