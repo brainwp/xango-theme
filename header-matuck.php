@@ -56,5 +56,4 @@
 	</header><!-- #header -->
 	<!-- add action to show slider -->
 	<?php do_action( 'xango_theme_slider_area' ); ?>
-	<div id="wrapper" class="container">
-		<div class="row">
+

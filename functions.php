@@ -294,6 +294,11 @@ require_once get_template_directory() . '/inc/optimize.php';
 require_once get_template_directory() . '/inc/template-tags.php';
 
 /**
+ * Kirki Customizer init
+ */
+require_once get_template_directory() . '/inc/customizer.php';
+
+/**
  * WooCommerce compatibility files.
  */
 if ( is_woocommerce_activated() ) {
