@@ -11,11 +11,13 @@ Author URI: http://wpod.in/#colaboradores
 */
 
 @import
-        "variables",           // Theme       Custom Variables
-        "bootstrap/bootstrap", // Bootstrap   Styles Core
-        "wordpress/wordpress", // WordPress   Styles Core
-        //"woocommerce",       // WooCommerce Styles Core
-        "odin/core",           // Odin        Styles Core
-        "layout",              // Theme       Custom Layout
-        "carlos-matuck"               // Theme       Custom Layout
+        "variables",           	// Theme       Custom Variables
+        "bootstrap/bootstrap", 	// Bootstrap   Styles Core
+        "wordpress/wordpress", 	// WordPress   Styles Core
+        //"woocommerce",       	// WooCommerce Styles Core
+        "odin/core",           	// Odin        Styles Core
+        "layout",              	// Theme       Custom Layout
+        "carlos-matuck",		// Theme       Custom Layout
+        "footer"       			// footer
+
 ;

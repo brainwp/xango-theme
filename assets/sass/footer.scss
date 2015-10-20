@@ -1,0 +1,30 @@
+#footer-xango {
+	clear: both;
+	background: #6F5499;
+	margin-top:20px;
+
+	* {
+		color: #FFF;
+	}
+	> .container {
+		padding-top:10px;
+		padding-bottom: 10px;
+	}
+
+	.footer-logo img {
+		max-width: 100%;
+	}
+	.footer-text {
+		padding-top:30px;
+	}
+	.footer-links{
+		padding-top:30px;
+	}
+	.footer-links img {
+		transition:500ms ease all;
+	}
+	.footer-links img:hover {
+		transition:500ms ease all;
+		transform: scale(1.2) rotate(360deg);
+	}
+}
